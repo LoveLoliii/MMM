@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>	
+<head>
+<title>User Login Flat Responsive widget Template :: w3layouts</title>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js">
+</script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".num").hide();
+$(".flip").click(function(){
+    $(".num").slideToggle("slow");
+    $(".login-form").slideToggle("slow");
+    $(".avtar").slideToggle("slow");
+    $(".p1").slideToggle("slow");
+  });
+});
+</script>
+<style type="text/css"> 
+div.panel,font.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+}
+div.panel
+{
+height:120px;
+display:none;
+}
+	.num{
+  padding: 25px;
+  background-color:#000000;
+  opacity: 0.5;
+	text-align:center;
+	width:50%;
+	 height:50%;
+	 margin-left: auto;
+margin-right: auto;
+
+	}
+		.input{
+            border: 1px solid #C3CED9;
+            border-radius: 5px 5px 5px 5px;
+            font-size: 14px;
+            line-height: 31px;
+            margin-right: 10px;
+            padding: 0;
+            width:300px;
+             height:10px;}
+                .submit{
+    background:url(http://www.aa25.cn/upload/2010-08/14/014304_btn_bg.gif) 0 0 no-repeat; width:107px; height:37px; border:none; font-size:14px; font-weight:bold; color:#d84700; cursor:pointer;
+    }
+    .btn10
+{
+	width:300px;
+	height:40px;
+	background:url("images/button/bg10.jpg") no-repeat left top;
+	color:#FFF;
+	border-radius: 5px 5px 5px 5px;
+	border: 0px solid #C3CED9;
+}
+.lol{
+text-align:center;
+margin:0px auto;}
+.td{
+width:500px;
+}
+.tdd{
+width:350px;
+text-align:right;
+ font-family:黑体;
+}
+.num h3{
+	    color: #FFFFFF;
+	    text-align:left;
+	    font-family:黑体;
+	    }
+.num h4{
+padding-bottom: 2em;
+font-family:黑体;
+	color: #fff;
+	font-weight: 100;
+	font-size: 1.2em;
+	text-align: center;
+}
+.p1{
+    padding-bottom: 2em;
+	color: #fff;
+	font-weight: 100;
+	font-size: 1.2em;
+	text-align: center;}
+.copy{
+	text-align:center;
+	width:956px;
+	margin:0 auto;
+	text-align:center;
+	color:#a6a6a6;
+	padding:20px 0
+}
+</style>
+</head>
+<body>
+<!--User-Login-->
+<h2>高校校友录</h2><p class="p"><a class="a">C</a>ollege <a class="a">A</a>lumni <a class="a">R</a>ecord</p>
+<div class="avtar">
+	<img src="images/avtar.png" />
+</div>
+	<p class="p1">新校友?<font class="flip">点我!</font></p>
+	<div class="login-form">
+			<form action="check.jsp">
+				<div class="form-text">
+					<input type="text" class="text"  name="username" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+					<input type="password" value="Password" name="userpassword" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+				</div>
+					<input type="submit" value="GO" class="submit1" >
+			</form>
+	</div>
+
+	<div class="num">
+		<h4>老校友?<font class="flip">点我!</font></h4>
+		<h3>用户注册</h3>
+		<hr>
+		<form action="sql.jsp" method="post">
+			<table class="lol">
+				<tr><td class="tdd">用户名：</td>
+					<td class="td"><input type="text" name="username" class="input" placeholder="请输入用户名"></td>
+				</tr>
+				<tr><td class="tdd">密码：</td>
+					<td class="td"><input type="password" name="userpassword" class="input" placeholder="请输入密码" value=""></td>
+				</tr>
+				
+				<tr><td class="tdd">年级：</td>
+					<td class="td"><input type="text" name="grade" class="input" value=""></td>
+				</tr>
+				<tr><td class="tdd">系别：</td>
+					<td class="td"><input type="text" name="dep" class="input" value=""></td>
+				</tr>
+				<tr><td class="tdd">专业：</td>
+					<td class="td"><input type="text" name="prof" class="input" value=""></td>
+				</tr>
+				<tr><td class="tdd">真实姓名：</td>
+					<td class="td"><input type="text" name="truename" class="input" placeholder="请输入真实姓名" value=""></td>
+				</tr>
+				<tr><td class="tdd">性别：</td>
+					<td class="td">
+						<input type=text name="sex" class="input" placeholder="请输入性别" value=""/>
+					</td>
+				</tr>	
+				<tr><td class="tdd">年龄：</td>
+					<td class="td"><input type="text" name="age" class="input" placeholder="请输入年龄"  value=""></td>
+				</tr>
+				<tr><td class="tdd">手机号码：</td>
+					<td class="td"><input type="text" name="phone" class="input" placeholder="请输入手机号码" value=""></td>
+				</tr>
+				<tr><td class="tdd">QQ号码：</td>
+					<td class="td"><input type="text" name="qqnum" class="input" placeholder="请输入QQ号码" value=""></td>
+				</tr>
+				
+		</table>
+		<input  type=submit class="btn10"  onmouseover="this.style.backgroundPosition='left -40px'" onmouseout="this.style.backgroundPosition='left top'" value="Submit">
+		<br><br>
+		
+		</form>
+
+	
+	</div>
+<!--/User-Login-->
+<!--start-copyright-->
+<!--//end-copyright-->	
+<P class="copy">Copyright &copy;2015 All Rights Reserved CAR公司 版权所有</P>
+</body>
+</html>

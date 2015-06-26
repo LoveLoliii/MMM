@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<school> 
+	<department name="建筑工程系"> 
+		<professional>土木工程</professional>
+		<professional>工程管理</professional>
+		<professional>建筑学</professional>
+		<professional>交通工程</professional>
+	</department> 
+	<department name="生物与环境工程系"> 
+		<professional>生物工程</professional>
+		<professional>生物技术</professional>
+		<professional>环境工程</professional>
+		<professional>食品科学与工程</professional>
+	</department> 
+	<department name="化学与材料工程系"> 
+		<professional>化学工程与工艺</professional>
+		<professional>无机非金属材料工程</professional>
+		<professional>粉体材料科学与工程</professional>
+		<professional>能源化学工程</professional>
+	</department> 
+	<department name="计算机科学与技术系"> 
+		<professional>计算机科学与技术</professional>
+		<professional>网络工程</professional>
+		<professional>软件工程</professional>
+		<professional>网络管理</professional>
+	</department> 
+	<department name="电子信息与电气工程系"> 
+		<professional>电子信息工程</professional>
+		<professional>自动化</professional>
+		<professional>通信工程</professional>
+	</department> 
+	<department name="机械工程系"> 
+		<professional>机械设计制造及其自动化</professional>
+		<professional>材料成型及控制工程</professional>
+	</department> 
+	<department name="数学与物理系"> 
+		<professional>数学与应用数学</professional>
+		<professional>信息与计算科学</professional>
+	</department> 
+	<department name="艺术设计系"> 
+		<professional>工业设计</professional>
+		<professional>动画</professional>
+		<professional>视觉传达设计</professional>
+		<professional>环境设计</professional>
+		<professional>产品设计</professional>
+		<professional>艺术与科技</professional>
+	</department> 
+	<department name="中国语言文学系"> 
+		<professional>汉语言文学</professional>
+		<professional>汉语国际教育</professional>
+		<professional>新闻学</professional>
+		<professional>秘书学</professional>
+	</department> 
+	<department name="经济系"> 
+		<professional>经济学</professional>
+		<professional>国际经济与贸易</professional>
+		<professional>金融学</professional>
+	</department> 
+	<department name="教育系"> 
+		<professional>小学教育</professional>
+		<professional>学前教育</professional>
+		<professional>应用心理学</professional>
+	</department> 
+	<department name="外国语言系"> 
+		<professional>英语</professional>
+		<professional>德语</professional>
+		<professional>日语</professional>
+		<professional>朝鲜语</professional>
+	</department> 
+	<department name="管理系"> 
+		<professional>工商管理</professional>
+		<professional>物流管理</professional>
+		<professional>会计学</professional>
+		<professional>财务管理</professional>
+		<professional>公共事业管理</professional>
+		<professional>信息管理与信息系统</professional>
+	</department> 
+	<department name="旅游系"> 
+		<professional>旅游管理</professional>
+		<professional>人文地理与城乡规划</professional>
+		<professional>酒店管理</professional>
+	</department>
+</school>
